@@ -10,5 +10,6 @@
 </template>
 
 <script>
-// ここにJSを書きます
+export default {
+}
 </script>
