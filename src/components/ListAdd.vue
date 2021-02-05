@@ -18,5 +18,14 @@ export default {
             title:"",
         }
     },
+
+    methods: {
+    addList:function() {
+        this.$store.dispach('addlist', { title: this.title })
+        this.title = ""
+    },
+}
+
 }
 </script>
+
