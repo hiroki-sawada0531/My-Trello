@@ -1,12 +1,12 @@
 <template>
     <form class="addlist" @submit.prevent="addList">
-        <input v-module = "title"
-            type = "text"
-            class = "text-input"
-            placeholder = "Add new list"
+        <input v-model="title"
+            type="text"
+            class="text-input"
+            placeholder="Add new list"
         >
         <button type="submit" class="add-button">
-            Add
+        Add
         </button>
     </form>
 </template>
@@ -15,14 +15,14 @@
 export default {
     data: function() {
         return {
-            title:"",
+        title:'',
         }
     },
 
     methods: {
     addList:function() {
-        this.$store.dispach('addlist', { title: this.title })
-        this.title = ""
+        this.$store.dispach('addlist',{title: this.title})
+        this.title=''
     },
 }
 
