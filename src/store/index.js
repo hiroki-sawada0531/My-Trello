@@ -48,17 +48,17 @@ store.subscribe((mutation, state) => {
 
 export default store
 
-export default new Vuex.Store({
-  state: {
-    lists:[],
-  },
-  mutations: {
-  },
-  actions: {
-    addlist(context,payload) {
-      context.commit('addlist', payload)
-    },
-  },
-  getters: {
-  }
-})
+// export default new Vuex.Store({
+//   state: {
+//     lists:[],
+//   },
+//   mutations: {
+//   },
+//   actions: {
+//     addlist(context,payload) {
+//       context.commit('addlist', payload)
+//     },
+//   },
+//   getters: {
+//   }
+// })
