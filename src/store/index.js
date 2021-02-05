@@ -9,6 +9,9 @@ export default new Vuex.Store({
   mutations: {
   },
   actions: {
+    addlist(context,payload) {
+      context.commit('addlist', payload)
+    },
   },
   getters: {
   }
