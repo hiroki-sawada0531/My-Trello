@@ -21,7 +21,7 @@ export default {
 
     methods: {
     addList:function() {
-        this.$store.dispach('addlist',{title: this.title})
+        this.$store.dispatch('addlist',{title: this.title})
         this.title=''
     },
 }
