@@ -18,6 +18,7 @@ export default {
     data: function() {
         return {
         title:'',
+        isEditing: false,
         }
     },
 
@@ -25,6 +26,13 @@ export default {
     addList:function() {
         this.$store.dispatch('addlist',{title: this.title})
         this.title=''
+    },
+
+    startEditing() {
+        this.isEditing = true
+    },
+    finishEditing() {
+        this.isEditing = false
     },
 }
 
