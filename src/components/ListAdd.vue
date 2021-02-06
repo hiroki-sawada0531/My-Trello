@@ -1,5 +1,5 @@
 <template>
-    <form class="classList" @submit.prevent="addList">
+    <form :class="classList" @submit.prevent="addList">
         <input v-model="title"
             type="text"
             class="text-input"
