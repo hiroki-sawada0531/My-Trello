@@ -4,6 +4,8 @@
             type="text"
             class="text-input"
             placeholder="Add new list"
+            @focusin="startEditing"
+            @focusout="finishEditing"
         >
         <button type="submit" class="add-button">
         Add
