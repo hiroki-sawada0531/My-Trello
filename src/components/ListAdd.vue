@@ -34,8 +34,19 @@ export default {
     finishEditing() {
         this.isEditing = false
     },
+
+    computed: {
+        classList() {
+            const classList = ['addlist']
+            if(this.isEditing) {
+                classList.push('active')
+            }
+            return classList
+        },
+    },
+
+    methods:
 }
 
 }
 </script>
-
