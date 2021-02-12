@@ -1,11 +1,11 @@
 <template>
-    <form class = "addcaed" @submit.prevent = "addCardToList">
+    <form :class = "classList" @submit.prevent = "addCardToList">
         <input v-model = "body"
             type = "text"
             class = "text-input"
             placeholder= "Add new card"
             @focussin= "startEditing"
-            @forcusout= "finisiEditing"
+            @forcusout= "finishEditing"
             />
     <button type = "submit" class = "add-button">
         Add
@@ -48,8 +48,8 @@ export default {
             this.finishEditing = false
         },
 
-        addCardTolist: function() {
-            this.$store.dispatch('addCardTolist', { body: this.body, listIndex: this.listIndex })
+        addCardToList: function() {
+            this.$store.dispatch('addCardToList', { body: this.body, listIndex: this.listIndex })
             this.body = ''
         }
     }
