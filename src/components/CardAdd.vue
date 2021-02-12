@@ -7,7 +7,7 @@
             @focussin= "startEditing"
             @forcusout= "finishEditing"
             />
-    <button type = "submit" class = "add-button">
+    <button type = "submit" class = "add-button" v-if = "isEditing || bodyExists">
         Add
     </button>
     </form>
@@ -19,7 +19,7 @@ export default {
     props: {
         listIndex: {
             type: Number,
-            required: true,
+            required: true
         }
     },
 
@@ -36,8 +36,15 @@ export default {
             if(this.isEditing) {
                 classList.push('active')
             }
-            return classList
+
+            if(this.bodyExists) {
+                classList.push('addable')
+            }
+            return classList;
         },
+        bodyExists() {
+            return this.body.length > 0
+        }
     },
 
     methods: {

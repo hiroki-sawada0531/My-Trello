@@ -22,7 +22,7 @@ const store = new Vuex.Store({
         ]
       },
       {
-        title:'Doing',
+        title:'Backlog',
         cards:[]
       }
     ],
@@ -53,7 +53,7 @@ const store = new Vuex.Store({
     },
   },
   getters:{
-  }
+  },
 })
 
 store.subscribe((mutation, state) => {
