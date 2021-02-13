@@ -9,10 +9,10 @@
         <list v-for= "(item,index) in lists"
             :key= "item.id"
             :title= "item.title"
-            : cards= "item.cards"
+            :cards= "item.cards"
             :listIndex= "index"
         />
-      <list-add/>
+      <listAdd />
       </div>
     </main>
   </div>
@@ -20,11 +20,14 @@
 
 <script>
 import List from './List'
-import ListAdd from './ListAdd'
+import ListAdd from './ListAdd.vue'
 import { mapState } from 'vuex'
 
 export default {
-  components: { ListAdd, List, },
+  components: {
+    ListAdd,
+    List,
+    },
   computed: {
     ...mapState([
       'lists'

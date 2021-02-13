@@ -11,7 +11,7 @@
             :listIndex= "listIndex"
             />
 
-        <card-add :listIndex = "listIndex" />
+        <CardAdd :listIndex = "listIndex" />
     </div>
 </template>
 
@@ -28,22 +28,22 @@ export default {
 
     props: {
     title: {
-            type:String,
-            required:true
+            type: String,
+            required: true
+    },
+
+    listIndex: {
+        type:Number,
+        required:true
     },
 
     cards: {
         type: Array,
         required: true
     },
-
-    listIndex: {
-        type:Number,
-        required:true
-    }
 },
 methods:{
-    removeList:function() {
+    removeList: function() {
         if(confirm('本当にこのリストを削除しますか？')){
             this.$store.dispatch('removelist', { listIndex: this.listIndex })
         }

@@ -4,10 +4,12 @@
             type = "text"
             class = "text-input"
             placeholder= "Add new card"
-            @focussin= "startEditing"
+            @focusin= "startEditing"
             @forcusout= "finishEditing"
             />
-    <button type = "submit" class = "add-button" v-if = "isEditing || bodyExists">
+    <button type = "submit"
+            class = "add-button"
+            v-if = "isEditing || bodyExists">
         Add
     </button>
     </form>
@@ -15,21 +17,19 @@
 
 <script>
 export default {
-
     props: {
         listIndex: {
             type: Number,
-            required: true
+            required: true,
         }
     },
 
     data: function() {
         return {
             body:'',
-            isEditing:false,
+            isEditing: false,
         }
     },
-
     computed: {
         classList() {
             const classList = ['addcard']
@@ -46,15 +46,13 @@ export default {
             return this.body.length > 0
         }
     },
-
     methods: {
-        startEditing:function() {
+        startEditing: function() {
             this.isEditing = true
         },
         finishEditing: function() {
             this.finishEditing = false
         },
-
         addCardToList: function() {
             this.$store.dispatch('addCardToList', { body: this.body, listIndex: this.listIndex })
             this.body = ''
