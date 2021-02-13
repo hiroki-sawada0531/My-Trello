@@ -19,6 +19,10 @@ export default {
     listIndex: {
         type: Number,
         required: true
+    },
+    cardIndex: {
+        type: Number,
+        required: true
     }
     },
     methods: {

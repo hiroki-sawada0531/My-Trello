@@ -39,6 +39,9 @@ const store = new Vuex.Store({
     addCardToList(state, payload) {
       state.lists[payload.listindex].cards.push({ body:payload.body})
     },
+    removeCardFromList(context,payload) {
+      context.commit('removeCardFromList', payload)
+    },
   },
   actions:{
     addlist(context, payload){

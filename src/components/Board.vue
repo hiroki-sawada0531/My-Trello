@@ -4,12 +4,13 @@
       my Trello
     </header>
     <main>
-      <p class="info-line">All: 0 tasks</p>
+      <p class= "info-line">All: 0 tasks</p>
       <div class="list-index">
-        <list v-for="(item,index) in lists"
-            :key="item.id"
-            :title="item.title"
-            :listIndex="index"
+        <list v-for= "(item,index) in lists"
+            :key= "item.id"
+            :title= "item.title"
+            : cards= "item.cards"
+            :listIndex= "index"
         />
       <list-add/>
       </div>
@@ -21,8 +22,7 @@
 import List from './List'
 import ListAdd from './ListAdd'
 import { mapState } from 'vuex'
-// import List from './List.vue'
-// import ListAdd from './ListAdd.vue'
+
 export default {
   components: { ListAdd, List, },
   computed: {
