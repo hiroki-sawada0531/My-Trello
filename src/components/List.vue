@@ -6,7 +6,7 @@
             <div class="deletelist" @click= "removeList">×</div>
         </div>
 
-        <draggable>
+        <draggable group = "cards">
         <card v-for= "(item, index) in cards"
             :body= "item.body"
             :key= "item.id"
