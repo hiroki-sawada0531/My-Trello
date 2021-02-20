@@ -41,7 +41,7 @@ export default {
 
   methods: {
     movingCard: function(){
-      this.$store.dispatch('updateList', { lists: this.lists })
+      this.$store.dispatch('updateList', { lists:this.lists })
     },
   }
 }
