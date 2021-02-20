@@ -5,7 +5,7 @@
     </header>
     <main>
       <p class= "info-line">All: {{ totalCardCount }} tasks</p>
-      <div class="list-index">
+      <draggable :list = "lists" class="list-index">
         <list v-for= "(item,index) in lists"
             :key= "item.id"
             :title= "item.title"
@@ -14,12 +14,13 @@
             @change= "movingCard"
         />
       <listAdd />
-      </div>
+      </draggable>
     </main>
   </div>
 </template>
 
 <script>
+import draggable from 'vuedraggable'
 import List from './List'
 import ListAdd from './ListAdd.vue'
 import { mapState } from 'vuex'
@@ -28,6 +29,7 @@ export default {
   components: {
     ListAdd,
     List,
+    draggable,
     },
   computed: {
     ...mapState([
