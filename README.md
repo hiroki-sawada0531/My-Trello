@@ -19,9 +19,7 @@ https://www.techpit.jp/courses/24
   <br>
   <a href="https://nodejs.org/"><img src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.svg" width="110px;" /></a>
   &emsp;
-  <a href="https://www.netlify.com/"><img src="https://www.mysql.com/common/logos/logo-mysql-170x115.png" height="80px;" /></a>
-  &emsp;
-  <a href="https://heroku.com/"><img src="https://user-images.githubusercontent.com/69971751/112742945-0384c580-8fce-11eb-810b-6c6d433b6142.png" height="80px;" /></a>
+  <a href="https://www.netlify.com/"><img src="https://cdn.worldvectorlogo.com/logos/netlify.svg" height="80px;" /></a>
 </p>
 
 ## :memo:アプリの機能
