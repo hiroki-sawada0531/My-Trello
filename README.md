@@ -1,11 +1,11 @@
-<h2 align="center">Vue.jsでtrello風アプリ</h2>
+<h2 align="center">trello風アプリVue.js.ver</h2>
 
 <img src="https://user-images.githubusercontent.com/69971751/112751594-d0602780-9009-11eb-954e-a68142dff354.png" width=100%>
 
 ## :clap:参考にした学習教材及び製作者様
-https://www.techpit.jp/courses/21
+https://www.techpit.jp/courses/24
 (※この教材は有料です。)
-<br>講師:Mr.T様
+<br>講師:kottyan様
 
 ## :octocat:開発環境
 - Laravel Framework 5.5.50
@@ -15,7 +15,7 @@ https://www.techpit.jp/courses/21
 - VSCode（Visual Studio Code）
 
 <p align="center">
-  <a href="https://laravel.com/"><img src="https://laravel.com/assets/img/components/logo-laravel.svg" width="300px;" /></a>
+  <a href="https://vuejs.org/"><img src="https://jp.vuejs.org/images/logo.png" width="100px;" /></a>
   <br>
   <a href="https://www.php.net/"><img src="https://www.php.net/images/logos/new-php-logo.png" width="110px;" /></a>
   &emsp;
