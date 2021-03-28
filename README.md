@@ -8,18 +8,18 @@ https://www.techpit.jp/courses/24
 <br>講師:kottyan様
 
 ## :octocat:開発環境
-- Laravel Framework 5.5.50
-- PHP 7.3.11
-- MySQL 8.0.21
-- heroku
+- Vue.js v2.6.12
+- Vue CLI v4.5.12
+- Node.js v14.6.0
+- Netlify
 - VSCode（Visual Studio Code）
 
 <p align="center">
   <a href="https://vuejs.org/"><img src="https://jp.vuejs.org/images/logo.png" width="100px;" /></a>
   <br>
-  <a href="https://www.php.net/"><img src="https://www.php.net/images/logos/new-php-logo.png" width="110px;" /></a>
+  <a href="https://nodejs.org/"><img src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.svg" width="110px;" /></a>
   &emsp;
-  <a href="https://www.mysql.com/"><img src="https://www.mysql.com/common/logos/logo-mysql-170x115.png" height="80px;" /></a>
+  <a href="https://www.netlify.com/"><img src="https://www.mysql.com/common/logos/logo-mysql-170x115.png" height="80px;" /></a>
   &emsp;
   <a href="https://heroku.com/"><img src="https://user-images.githubusercontent.com/69971751/112742945-0384c580-8fce-11eb-810b-6c6d433b6142.png" height="80px;" /></a>
 </p>
