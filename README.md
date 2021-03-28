@@ -58,7 +58,5 @@ Add new listボタンを押すことでリストを新しく作ることが出�
 
 サイトURLにログイン
 <br>
-http://kanban-board-0531.herokuapp.com/
-からアプリのログイン画面に移動します。
-<br>
-ゲストログイン用メールアドレスtest@example.comとパスワード000000を入力してログインします。
+https://mytrelloapp.netlify.app/
+からアプリに移動します。
