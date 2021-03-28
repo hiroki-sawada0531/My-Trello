@@ -36,17 +36,11 @@ Add new listボタンを押すことでリストを新しく作ることが出�
 
 <img src="https://techpit-market-prod.s3.amazonaws.com/uploads/part_attachment/file/6645/0ba6a3da-abb3-4f68-8876-ffcaa62009b9.gif" width=70%>
 
-<br>
-カードの上でクリックをするとカードの内容が閲覧が出来ます。また編集やカードの削除をすることも出来ます。
-<br>
-<img src="https://user-images.githubusercontent.com/69971751/112743487-bf47f400-8fd2-11eb-9b9a-75b9e0e24316.png" width=80%>
-<br>
+<h3>3.リストの削除</h3>
 
-<h3>3.メモの削除</h3>
+メモリストの×ボタンをクリックをするとウインドウアラートが出て本当にこのリストを削除しますか？と聞かれます。削除しても大丈夫ならOKをクリックすることでメモリストが削除されます。
 
-メモリストのゴミ箱ボタンをクリックをするとウインドウアラートが出て削除をして大丈夫ですか？と聞かれます。削除しても大丈夫ならOKをクリックすることでメモリストが削除されます。
-
-<img src="https://user-images.githubusercontent.com/69971751/112743724-ac362380-8fd4-11eb-8758-8903054fced8.gif" width=80%>
+<img src="https://techpit-market-prod.s3.amazonaws.com/uploads/part_attachment/file/6646/d6dc07d0-5f54-424b-8c1d-909d83423896.gif" width=70%>
 
 ## :pencil2:使用方法
 
