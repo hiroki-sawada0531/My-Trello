@@ -26,15 +26,15 @@ https://www.techpit.jp/courses/24
 
 <h3>1.新規リストの作成</h3>
 
-リストを作成ボタンを押すことでリストを新しく作ることが出来ます。鉛筆ボタンを押すとリスト名を編集出来ます。
+Add new listボタンを押すことでリストを新しく作ることが出来ます。
 
-<img src="https://user-images.githubusercontent.com/69971751/112743469-8c9dfb80-8fd2-11eb-9a61-3a8e1678591a.gif" width=70%>
+<img src="https://techpit-market-prod.s3.amazonaws.com/uploads/part_attachment/file/6644/de9f11cb-32ad-4650-a864-ea2a3a255588.gif" width=70%>
 
-<h3>2.メモカードの作成と編集</h3>
+<h3>2.メモカードの作成</h3>
 
-①.さらにカードを追加ボタンを押すことでカードを新しく作ることが出来ます。<br>②.カードのタイトルとメモしたい内容を入力して下さい。<br>③.書き終えたら緑の作成ボタンを押して下さい。
+フォームにタスク名を入力して新しいカードを作成出来ます。
 
-<img src="https://user-images.githubusercontent.com/69971751/112743417-231ded00-8fd2-11eb-811b-6988916eed16.gif" width=70%>
+<img src="https://techpit-market-prod.s3.amazonaws.com/uploads/part_attachment/file/6645/0ba6a3da-abb3-4f68-8876-ffcaa62009b9.gif" width=70%>
 
 <br>
 カードの上でクリックをするとカードの内容が閲覧が出来ます。また編集やカードの削除をすることも出来ます。
