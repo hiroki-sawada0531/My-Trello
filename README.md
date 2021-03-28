@@ -42,6 +42,18 @@ Add new listボタンを押すことでリストを新しく作ることが出�
 
 <img src="https://techpit-market-prod.s3.amazonaws.com/uploads/part_attachment/file/6646/d6dc07d0-5f54-424b-8c1d-909d83423896.gif" width=70%>
 
+<h3>3.リストのドラッグ＆ドロップ</h3>
+
+リストを左右へドラッグ＆ドロップで移動することが出来ます。
+
+<img src="https://techpit-market-prod.s3.amazonaws.com/uploads/part_attachment/file/6648/eb58dbbf-e5c2-4184-9413-6fec9a16cd68.gif" width=70%>
+
+<h3>3.カードのドラッグ＆ドロップ</h3>
+
+カードだけをを上下させたり、リスト間でドラッグ＆ドロップできます。
+
+<img src="https://techpit-market-prod.s3.amazonaws.com/uploads/part_attachment/file/6649/359d7bcc-ee6b-4d5f-865d-ad3ef6f6d824.gif" width=70%>
+
 ## :pencil2:使用方法
 
 サイトURLにログイン
