@@ -1,8 +1,8 @@
-<h2 align="center">trello風アプリVue.js.ver</h2>
+<h2 align="center">Trello風アプリVue.js.ver</h2>
 
 <img src="https://user-images.githubusercontent.com/69971751/112751594-d0602780-9009-11eb-954e-a68142dff354.png" width=100%>
 
-## :clap:参考にした学習教材及び製作者様
+## :clap:学習教材と製作者様
 https://www.techpit.jp/courses/24
 (※この教材は有料です。)
 <br>講師:kottyan様
